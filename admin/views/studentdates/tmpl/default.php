@@ -25,14 +25,16 @@ defined('_JEXEC') or die('Restricted Access');
             <th width="10%">
 				<?php echo JText::_('COM_REFERENCE_STUDENTDATES_YEAR') ;?>
 			</th>
-			<th width="30%">
+			<th width="20%">
 				<?php echo JText::_('COM_REFERENCE_STUDENTDATES_SUNDAY') ;?>
 			</th>
                         
-			<th width="30%">
+			<th width="20%">
 				<?php echo JText::_('COM_REFERENCE_STUDENTDATES_THURSDAY'); ?>
 			</th>
-			
+				<th width="20%">
+				<?php echo JText::_('COM_REFERENCE_STUDENTDATE_WEEKON_LABEL'); ?>
+			</th>
 			
                        
 		</tr>
@@ -65,6 +67,9 @@ defined('_JEXEC') or die('Restricted Access');
                                                 
                         <td>
 								<?php echo $row->Thursday; ?>
+						</td>
+						<td>
+								<?php echo $row->StudentWeekOn; ?>
 						</td>
 					
                                             
