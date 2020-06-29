@@ -29,7 +29,16 @@
 				filter="user_utc"
 				required="true"
 		/>
-		
+		<field name="StudentWeekOn"
+		       type="list"
+		       default="y"
+		       label="COM_REFERENCE_STUDENTDATE_WEEKON_LABEL"
+			description="COM_REFERENCE_STUDENTDATE_WEEKON_DESC">
+		       
+			
+			<option value="y">Yes</option>
+			<option value="n">No</option>
+		 </field>
 		
 		<field 	name="lastModified" 
 				type="lastmodified"
