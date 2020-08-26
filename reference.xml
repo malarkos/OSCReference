@@ -10,7 +10,7 @@
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>1.8.81</version>
+	<version>1.8.9</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>COM_REFERENCE_DESCRIPTION</description>
 	<install> <!-- Runs on install -->
@@ -46,6 +46,8 @@
 		<submenu>
 		<menu link="option=com_reference&amp;view=memberrates" view="memberrates"
 				img="class:reference-memberrates" alt="Reference/Memberrates">COM_REFERENCE_MEMBER_RATES</menu>
+		<menu link="option=com_reference&amp;view=subsdates" view="subsdates"
+				img="class:reference-subsdates" alt="Reference/SubsDates">COM_REFERENCE_SUBSDATES</menu>
 		<menu link="option=com_reference&amp;view=summerrates" view="summerrates"
 				img="class:reference-summerrates" alt="Reference/Summerrates">COM_REFERENCE_SUMMER_RATES</menu>
 		<menu link="option=com_reference&amp;view=winterrates" view="winterrates"

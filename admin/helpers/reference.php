@@ -19,6 +19,11 @@ class ReferenceHelper extends JHelperContent
             $vName == 'memberrates'
         );
         JHtmlSidebar::addEntry(
+            JText::_('COM_REFERENCE_SUBSDATES'),
+            'index.php?option=com_reference&view=subsdates',
+            $vName == 'subsdates'
+            );
+        JHtmlSidebar::addEntry(
         		JText::_('COM_REFERENCE_SUMMER_RATES'),
         		'index.php?option=com_reference&view=summerrates',
         		$vName == 'summerrates'
