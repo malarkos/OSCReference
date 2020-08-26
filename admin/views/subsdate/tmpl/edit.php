@@ -29,6 +29,6 @@ JHTML::_('behavior.formvalidator');
             </div>
         </fieldset>
     </div>
-    <input type="hidden" name="task" value="memberrate.edit" />
+    <input type="hidden" name="task" value="subsdate.edit" />
     <?php echo JHtml::_('form.token'); ?>
 </form>

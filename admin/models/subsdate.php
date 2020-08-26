@@ -103,6 +103,10 @@ class ReferenceModelSubsDate extends JModelAdmin
 		$modname = $user->name;
 		
 		$table->lastModifiedby = $modname;
+		
+		$dt = new DateTime();
+		$dt->format('Y-m-d H:i:s');
+		$table->lastModified = $dt;
 	
 	}
 }

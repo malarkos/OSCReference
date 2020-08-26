@@ -19,22 +19,22 @@ defined('_JEXEC') or die('Restricted Access');
 		<thead>
 		<tr>
 	 		<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_YEAR') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_YEAR') ;?>
 				</th>
 				<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_SUBSSTARTDATE') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_SUBSSTARTDATE') ;?>
 				</th>
 				<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_SUBSENDDATE') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_SUBSENDDATE') ;?>
 				</th>
 				<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_SUBSPAYBYDATE') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_SUBSPAYBYDATE') ;?>
 				</th>
 				<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_SUBSPAIDRESET') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_SUBSPAIDRESET') ;?>
 				</th>
 				<th width="10%">
-				<?php echo JText::_('COM_SUBS_SUBSSUMMARY_SUBSALLOCATED') ;?>
+				<?php echo JText::_('COM_REFERENCE_SUBSSUMMARY_SUBSALLOCATED') ;?>
 				</th>
                        
 		</tr>
