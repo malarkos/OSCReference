@@ -15,7 +15,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceViewMemberRate extends JViewLegacy
+class ReferenceViewSubsDate extends JViewLegacy
 {
 	/**
 	 * View form
@@ -36,7 +36,7 @@ class ReferenceViewMemberRate extends JViewLegacy
 		// Get the Data
 		$this->form = $this->get('Form');
 		$this->item = $this->get('Item');
-		$this->script = $this->get('Script');
+		//$this->script = $this->get('Script');
  
 		// Check for errors.
 		if (count($errors = $this->get('Errors')))
@@ -72,17 +72,17 @@ class ReferenceViewMemberRate extends JViewLegacy
  
 		if ($isNew)
 		{
-			$title = JText::_('COM_REFERENCE_MEMBERRATE_NEW');
+			$title = JText::_('COM_REFERENCE_SUBSDATE_NEW');
 		}
 		else
 		{
-			$title = JText::_('COM_REFERENCE_MEMBERRATE_EDIT');
+			$title = JText::_('COM_REFERENCE_SUBSDATE_EDIT');
 		}
  
 		JToolBarHelper::title($title, 'venue');
-		JToolBarHelper::save('memberrate.save');
+		JToolBarHelper::save('subsdate.save');
 		JToolBarHelper::cancel(
-			'memberrate.cancel',
+			'subsdate.cancel',
 			$isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE'
 		);
 	}

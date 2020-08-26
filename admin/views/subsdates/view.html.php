@@ -15,7 +15,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceViewMemberRates extends JViewLegacy
+class ReferenceViewSubsDates extends JViewLegacy
 {
 	/**
 	 * Display the APS view
@@ -41,7 +41,7 @@ class ReferenceViewMemberRates extends JViewLegacy
 		// Helper file with code to build side menu
 		require_once JPATH_COMPONENT . '/helpers/reference.php';
 		// Call to build the sub menu
-		ReferenceHelper::addSubmenu("memberrates");
+		ReferenceHelper::addSubmenu("subsdates");
 		// render the sub menu on the screen.
 		$this->sidebar = JHtmlSidebar::render();
  
@@ -61,9 +61,9 @@ class ReferenceViewMemberRates extends JViewLegacy
 	 */
 	protected function addToolBar()
 	{
-		JToolBarHelper::title(JText::_('COM_REFERENCE_MANAGER_MEMBERRATES'));
-		JToolBarHelper::addNew('memberrate.add');
-		JToolBarHelper::editList('memberrate.edit');
+		JToolBarHelper::title(JText::_('COM_REFERENCE_MANAGER_SUBSDATES'));
+		JToolBarHelper::addNew('subsdate.add');
+		JToolBarHelper::editList('subsdate.edit');
 		//JToolBarHelper::deleteList('', 'memberrate.delete');
 	}
 }

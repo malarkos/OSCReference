@@ -15,7 +15,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceModelMemberRate extends JModelAdmin
+class ReferenceModelSubsDate extends JModelAdmin
 {
 	/**
 	 * Method to get a table object, load it if necessary.
@@ -28,7 +28,7 @@ class ReferenceModelMemberRate extends JModelAdmin
 	 *
 	 * @since   1.6
 	 */
-	public function getTable($type = 'MemberRate', $prefix = 'ReferenceTable', $config = array())
+	public function getTable($type = 'SubsDate', $prefix = 'ReferenceTable', $config = array())
 	{
 		return JTable::getInstance($type, $prefix, $config);
 	}
@@ -47,8 +47,8 @@ class ReferenceModelMemberRate extends JModelAdmin
 	{
 		// Get the form.
 		$form = $this->loadForm(
-			'com_reference.memberrate',
-			'memberrate',
+			'com_reference.subsdate',
+			'subsdate',
 			array(
 				'control' => 'jform',
 				'load_data' => $loadData
@@ -84,7 +84,7 @@ class ReferenceModelMemberRate extends JModelAdmin
 	{
 		// Check the session for previously entered form data.
 		$data = JFactory::getApplication()->getUserState(
-			'com_reference.edit.memberrate.data',
+			'com_reference.edit.subsdate.data',
 			array()
 		);
  

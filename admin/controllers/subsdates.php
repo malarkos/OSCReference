@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceControllerMemberRates extends JControllerAdmin
+class ReferenceControllerSubsDates extends JControllerAdmin
 {
 	/**
 	 * Proxy for getModel.
@@ -27,7 +27,7 @@ class ReferenceControllerMemberRates extends JControllerAdmin
 	 *
 	 * @since   1.6
 	 */
-	public function getModel($name = 'MemberRate', $prefix = 'ReferenceModel', $config = array('ignore_request' => true))
+	public function getModel($name = 'SubsDate', $prefix = 'ReferenceModel', $config = array('ignore_request' => true))
 	{
 		$model = parent::getModel($name, $prefix, $config);
  

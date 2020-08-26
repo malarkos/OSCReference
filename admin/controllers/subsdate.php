@@ -16,7 +16,7 @@ defined('_JEXEC') or die('Restricted access');
  * @subpackage  com_reference
  * @since       0.0.9
  */
-class ReferenceControllerMemberRate extends JControllerForm
+class ReferenceControllerSubsDate extends JControllerForm
 {
     // Set appropriate default view
     

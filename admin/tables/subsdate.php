@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceTableMemberRate extends JTable
+class ReferenceTableSubsDate extends JTable
 {
 	/**
 	 * Constructor
@@ -23,6 +23,6 @@ class ReferenceTableMemberRate extends JTable
 	 */
 	function __construct(&$db)
 	{
-		parent::__construct('oscmemberrates', 'id', $db);
+		parent::__construct('oscsubsreferencedates', 'id', $db);
 	}
 }

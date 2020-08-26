@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
  *
  * @since  0.0.1
  */
-class ReferenceModelMemberRates extends JModelList
+class ReferenceModelSubsDates extends JModelList
 {
     
         public function __construct($config = array())
@@ -41,8 +41,9 @@ class ReferenceModelMemberRates extends JModelList
  
 		// Create the base select statement.
 		$query->select('o.*');
-        $query->from('oscmemberrates AS o');
-        //$query->leftJoin('apsschools AS s ON v.schoolid = s.id');               
+        $query->from('oscsubsreferencedates AS o');
+        $query->order('subsyear');
+                    
  
 		return $query;
 	}
