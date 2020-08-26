@@ -3,14 +3,14 @@
  
 	<name>COM_REFERENCE</name>
 	<!-- The following elements are optional and free of formatting constraints -->
-	<creationDate>29 June 2020</creationDate>
+	<creationDate>26 Aug 2020</creationDate>
 	<author>Geoff Markley</author>
 	<authorEmail>geoffm@labyrinth.net.au</authorEmail>
 	<authorUrl>http://www.ormondskiclub.com.au</authorUrl>
 	<copyright>Copyright Info</copyright>
 	<license>License Info</license>
 	<!--  The version string is recorded in the components table -->
-	<version>1.8.8</version>
+	<version>1.8.81</version>
 	<!-- The description is optional and defaults to the name -->
 	<description>COM_REFERENCE_DESCRIPTION</description>
 	<install> <!-- Runs on install -->
