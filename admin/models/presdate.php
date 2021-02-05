@@ -96,7 +96,7 @@ class ReferenceModelPresDate extends JModelAdmin
 		return $data;
 	}
 	
-	protected function prepareTable(&$table)
+	protected function prepareTable($table)
 	{
 	
 		$user = JFactory::getUser();
