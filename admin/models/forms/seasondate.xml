@@ -45,7 +45,12 @@
 				description="" 
 				readonly="true"
 				/>
-		
+		<field 	name="lastModifiedby" 
+				type="lastmodifiedby"
+				label="" 
+				description="" 
+				readonly="true"
+				/>
 		
 	</fieldset>
 </form>
